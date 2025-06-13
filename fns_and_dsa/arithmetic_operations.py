@@ -1,8 +1,8 @@
 from typing import Literal, Union
 
-def perform_operation(
-    num1: float,
-    num2: float,
+def perform_operation  (
+    num1 : float,
+    num2 : float,
     operation: Literal['add', 'subtract', 'multiply', 'divide']
 ) -> Union[float, str]:
     if operation == "add":
