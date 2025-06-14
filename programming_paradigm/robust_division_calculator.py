@@ -9,6 +9,6 @@ def safe_divide(numerator, denominator) :
    return f"Error: Cannot divide by zero."
  except ValueError :
    return f"Error: Please enter numeric values only."
- finally:
+ #finally:
    # return f"you did will" i cant do return because ghadi yghleb 3la returns li qbel meno and the errors will not show up
-   print("you did will")
+   #print("you did will")
