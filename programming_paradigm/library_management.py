@@ -1,4 +1,4 @@
-class Book():
+class Book:
     def __init__(self,title,author,):
         self.title=title
         self.author=author
@@ -12,7 +12,7 @@ class Book():
            if self._is_checked_out : # if the book cheked (true) make it not cheked because it got returned
             self._is_checked_out = False 
 
-class Library() :
+class Library:
     def __init__(self,):
      self.__books=[] #private list of books 
     def add_book(self,book):
